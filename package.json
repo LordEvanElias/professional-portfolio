@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/LordEvanElias/professional-portfolio/issues"
   },
-  "homepage": "https://github.com/LordEvanElias/professional-portfolio#readme"
+  "homepage": "https://github.com/LordEvanElias/professional-portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
