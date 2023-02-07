@@ -1,2 +1,47 @@
 
-header,body,footer{};
+.bikes4u {
+    flex-direction: column;
+    border: solid grey 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.password-generator{
+    flex-direction: column;
+    border: solid grey 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.project-image{
+    min-width: 250px;
+    max-width: 500px;
+}
+
+.projects-div {
+    text-align: center;
+}
+
+.README-maker{
+    flex-direction: column;
+    border: solid grey 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.team-profile-maker {
+    flex-direction: column;
+    border: solid grey 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.weather-thingy {
+    flex-direction: column;
+    border: solid grey 2px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
