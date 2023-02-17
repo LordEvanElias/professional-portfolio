@@ -29,6 +29,10 @@ width: 30%;
 align-items: center;
 }
 
+nav{
+    border-bottom: solid black 3px;
+}
+
 .password-generator{
 flex-direction: column;
 border: solid black 2px;
