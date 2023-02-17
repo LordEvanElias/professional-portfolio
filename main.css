@@ -1,5 +1,6 @@
 body{
     background-color: darkcyan;
+    margin: 0 ;
 }
 
 
@@ -29,8 +30,46 @@ width: 30%;
 align-items: center;
 }
 
+.github-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.github-logo:hover {
+    background-color: darkslategray;
+    color: white;
+    box-shadow: 24px;
+
+}
+
+h1{
+    margin: 0;
+}
+
+.intro-statement{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.linkedin-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.linkedin-logo:hover {
+    background-color: darkslategray;
+    color: white;
+    box-shadow: 24px;
+
+}
+
 nav{
     border-bottom: solid black 3px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .password-generator{
@@ -82,6 +121,14 @@ margin: 1rem;
 width: 30%;
 align-items: center;
 }
+
+.socials{
+display: flex;
+flex-direction: row;
+justify-content: right;
+align-items: center;
+}
+
 .team-profile-maker {
 flex-direction: column;
 border: solid black 2px;
@@ -97,10 +144,12 @@ align-items: center;
 
 .technologies{
     border: solid black 2px;
+    background-color: lightgrey;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 33%;
+    margin-top: 2rem;
 }
 
 .tech-div{
@@ -108,6 +157,8 @@ align-items: center;
     background-color: lightslategrey;
     color: white;
     display: inline-block;
+    border-radius: 4px;
+    padding: 2px;
 }
 
 
