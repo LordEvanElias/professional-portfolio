@@ -7,27 +7,27 @@ function goToGithub() {
 }
 
 function goToBikes4U() {
-  window.open("", "_blank");
+  window.open("https://team-a2c2e.github.io/Bikes4U/", "_blank");
 }
 
 function goToWeatherThingy() {
-  window.open("", "_blank");
+  window.open("https://lordevanelias.github.io/weather-thingy/", "_blank");
 }
 
 function goToREADMEMaker() {
-  window.open("", "_blank");
+  window.open("https://github.com/LordEvanElias/README-maker", "_blank");
 }
 
 function goToPasswordGenerator() {
-  window.open("", "_blank");
+  window.open("https://lordevanelias.github.io/password-generator/", "_blank");
 }
 
 function goToTeamProfileMaker() {
-  window.open("", "_blank");
+  window.open("https://github.com/LordEvanElias/team-profile-maker", "_blank");
 }
 
 function goToC2ezPOS() {
-  window.open("", "_blank");
+  window.open("https://c2ez-pos.herokuapp.com/login", "_blank");
 }
 document.querySelector(".github-logo").addEventListener("click", goToGithub);
 document.querySelector(".linkedin-logo").addEventListener("click", goToLinkedin);
